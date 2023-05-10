@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Yeseva+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 2vw;
+    font-family: var(--sans-serif-font);
+    --light-color: rgb(255, 255, 255);
+    --dark-color: rgb(0, 0, 0);
+    --accent-color: rgb(255, 0, 0);
+    --transparent: rgba(0, 0, 0, 0);
+    --sans-serif-font: "Wix Madefor Text";
+    --display-font: "Yeseva One";
+}
+
+h1, h2 {
+    font-family: var(--display-font);
+}
+
+#root {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+}

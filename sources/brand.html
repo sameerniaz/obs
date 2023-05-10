@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <style>
+        #root {
+            padding: 0 4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            background-color: var(--dark-color);
+            color: var(--light-color);
+        }
+
+        #root > .title {
+            font-size: 5rem;
+            font-weight: bold;
+            line-height: 5rem;
+        }
+
+        #root > .subtitle {
+            font-size: 2rem;
+            line-height: 2rem;
+        }
+
+        #root > .spanner {
+            position: absolute;
+            bottom: 0; left: 0;
+            width: 100%;
+            height: 5%;
+            background-color: var(--accent-color);
+        }
+    </style>
+    <title>Syntax Brand</title>
+</head>
+<body>
+    <div id="root">
+        <span class="title">SYNTAX</span>
+        <span class="subtitle">YouTube</span>
+        <span class="spanner"></span>
+    </div>
+</body>
+</html>
